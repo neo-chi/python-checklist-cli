@@ -1,3 +1,5 @@
+pynvim
+python-lsp-server
 tox
 pytest
 pytest-cov
@@ -9,4 +11,7 @@ matplotlib
 seaborn
 scipy
 ruamel.yaml
+rich
+typer
+ipython
 -e .  # Necessary for editable installs
