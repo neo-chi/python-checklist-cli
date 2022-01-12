@@ -82,7 +82,7 @@ setup(
                     # executes the function `main` from this package when invoked:
     entry_points={  # Optional
         'console_scripts': [
-            'main = ENTER_PKGNAME:__INIT__.PY_FUNCTION',  # NOTE: hook the __init__.py method in main()
+            'mytodo = app:main',  # NOTE: hook the __init__.py method in main()
         ],
     },
                     # List additional URLs that are relevant to your project as a dict.
